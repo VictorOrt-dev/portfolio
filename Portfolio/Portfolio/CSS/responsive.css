@@ -1,0 +1,50 @@
+@media (max-width: 768px) {
+   
+    
+    .filter-btn {
+        padding: 0.4rem 1rem;
+        font-size: 0.9rem;
+    }
+    
+    .projects-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero .subtitle {
+        font-size: 1rem;
+    }
+
+    .about-text h2,
+    .projects h2,
+    .contact h2 {
+        font-size: 2rem;
+    }
+
+    .project-content {
+        padding: 1.5rem;
+    }
+
+    .skills {
+        justify-content: center;
+    }
+
+    .cta-buttons {
+        gap: 1rem;
+    }
+
+    .btn {
+        padding: 0.8rem 1.5rem;
+        font-size: 0.9rem;
+    }
+    
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+}
